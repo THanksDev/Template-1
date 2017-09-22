@@ -1,0 +1,163 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	line-height: 1.5;
+	padding: 0;
+	margin:  0;
+}
+
+/** Universal *************/
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+/** Header *************/
+
+header {
+	max-height: 50px;
+}
+
+header #logo {
+	float: left;
+}
+
+header #logo img {
+	width: 35px;
+	margin: 5px 0;
+	border: black solid 3px;
+}
+
+header nav {
+	float: right;
+	margin-top: 5px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	font-weight: bold;
+}
+
+header nav .current {
+	color: turquoise;
+	font-weight: bold;
+}
+
+header ul {
+	text-decoration: none;
+}
+
+header ul li {
+	float: left;
+	display: inline;
+	padding: 10px;
+}
+
+
+/** Showcase *************/
+
+#showcase {
+	height: 400px;
+	background: url('./images/showcase.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#showcase .welcome {
+	float: right;
+	width: 55%;
+	padding: 20px;
+	margin: 40px 0 20px 0;
+	background-color: rgba(255,255,255, 0.6);
+
+}
+
+#showcase h1 {
+	margin-top: 20px;
+	font-size: 32px;
+}
+
+#showcase p {
+	margin-top: 5px;
+}
+
+#showcase h3 a {
+	text-decoration: none;
+	background: turquoise;
+	text-align: center;
+	width: 100px;
+	padding: 10px 15px;
+	color: white;
+	font-size: 16px;
+}
+
+#showcase h3 a:hover {
+	color: black;
+}
+
+
+
+/** Center *************/
+
+
+#center .aboutus {
+	text-align: center;
+}
+
+#center .aboutus img {
+	margin-bottom: 20px;
+}
+
+
+/** Bottom *************/
+
+
+#bottom {
+	height: 400px;
+	background: url('./images/bottom.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#bottom .skills {
+	float: left;
+	width: 45%;
+	padding: 20px;
+	margin: 50px 0 20px 0;
+	background-color: rgba(255,255,255, 0.6);
+}
+
+#bottom .skills h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+
+#bottom .skills ul {
+	padding-left: 10px;
+}
+
+#bottom .skills li {
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+/** Footer *************/
+
+
+footer {
+	max-height: 40px;
+	text-align: center;
+	font-size: 12px;
+}
