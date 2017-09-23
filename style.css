@@ -70,14 +70,14 @@ header ul li {
 #showcase {
 	height: 400px;
 	background: url('./images/showcase.jpg') no-repeat center center;
-	background-size: cover;
+	background-size: 80%;
 }
 
 #showcase .welcome {
 	float: right;
-	width: 55%;
+	width: 50%;
 	padding: 20px;
-	margin: 40px 0 20px 0;
+	margin: 20px 20px 20px 0;
 	background-color: rgba(255,255,255, 0.6);
 
 }
@@ -125,14 +125,14 @@ header ul li {
 #bottom {
 	height: 400px;
 	background: url('./images/bottom.jpg') no-repeat center center;
-	background-size: cover;
+	background-size: 80%;
 }
 
 #bottom .skills {
 	float: left;
 	width: 45%;
 	padding: 20px;
-	margin: 50px 0 20px 0;
+	margin: 50px 0 20px 20px;
 	background-color: rgba(255,255,255, 0.6);
 }
 
