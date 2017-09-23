@@ -153,6 +153,87 @@ header ul li {
 }
 
 
+/** About Page *********/
+
+
+#bio .about {
+	float: right;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+}
+
+#bio .about p {
+	margin-top: 40px;
+	padding: 25px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#bio .title {
+	float: left;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+	background: black;
+}
+
+#bio .title h1 {
+	margin-top: 100px;
+	font-size: 50px;
+	color: white;
+}
+
+#icon .icons {
+	background: turquoise;
+}
+
+#icon .icons ul {
+	text-align: center;
+}
+
+#icon .icons ul li {
+	display: inline;
+	margin: 0 40px;
+}
+
+#icon .icons ul li img {
+	width: 40px;
+	padding: 20px;
+}
+
+#icon .icons img {
+	
+}
+
+#service .record {
+	float: left;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+}
+
+#service .record p {
+	margin-top: 40px;
+	padding: 25px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#service .title2 {
+	float: right;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+	background: black;
+}
+
+#service .title2 h1 {
+	margin-top: 100px;
+	font-size: 50px;
+	color: white;
+}
+
 /** Footer *************/
 
 
