@@ -164,9 +164,9 @@ header ul li {
 }
 
 #bio .about p {
-	margin-top: 40px;
+	margin-top: 50px;
 	padding: 25px;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 18px;
 }
 
@@ -175,13 +175,13 @@ header ul li {
 	width: 50%;
 	height: 300px;
 	text-align: center;
-	background: black;
+	background: lightgray;
 }
 
 #bio .title h1 {
 	margin-top: 100px;
 	font-size: 50px;
-	color: white;
+	color: black;
 }
 
 #icon .icons {
@@ -214,9 +214,9 @@ header ul li {
 }
 
 #service .record p {
-	margin-top: 40px;
+	margin-top: 50px;
 	padding: 25px;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 18px;
 }
 
@@ -225,13 +225,13 @@ header ul li {
 	width: 50%;
 	height: 300px;
 	text-align: center;
-	background: black;
+	background: lightgray;
 }
 
 #service .title2 h1 {
 	margin-top: 100px;
 	font-size: 50px;
-	color: white;
+	color: black;
 }
 
 /** Footer *************/
